@@ -1,0 +1,45 @@
+{
+  "name": "bunyanesque",
+  "version": "0.0.0",
+  "description": "bunyan logger with a few tweaks",
+  "main": "./lib/",
+  "author": {
+    "name": "Overlook Motel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/overlookmotel/bunyanesque.git"
+  },
+  "bugs": {
+    "url": "https://github.com/overlookmotel/bunyanesque/issues"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3",
+    "chai": "^3.3.0",
+	"jshint": "^2.8.0",
+    "istanbul": "^0.3.21",
+    "coveralls": "^2.11.4"
+  },
+  "keywords": [
+    "bunyan",
+    "logging",
+    "logger",
+    "log"
+  ],
+  "scripts": {
+    "test": "make test",
+    "cover": "make cover"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "readmeFilename": "README.md",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/overlookmotel/bunyanesque/raw/master/License"
+    }
+  ]
+}
