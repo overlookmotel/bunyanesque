@@ -12,6 +12,36 @@
 
 ## Usage
 
+A small modification of the [bunyan](https://www.npmjs.com/package/bunyan) logging library.
+
+The differences are:
+
+### Plain `log()` method
+
+`log()` is an alias for `log.info()`.
+
+```js
+var log = require('bunyanesque').createLogger();
+
+// These are equivalent:
+log('Message');
+log.info('Message');
+```
+
+### Arguments order
+
+`log(message, object)` is allowable.
+
+```js
+// These are equivalent:
+log.info('Message', {a: 123});
+log.info({a: 123}, 'Message');
+```
+
+### Other features
+
+All other `bunyan` features, aside from `.child()` are not supported.
+
 ## Tests
 
 Use `npm test` to run the tests. Use `npm run cover` to check coverage.
