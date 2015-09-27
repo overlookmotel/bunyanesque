@@ -1,6 +1,6 @@
 {
   "name": "bunyanesque",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "bunyan logger with a few tweaks",
   "main": "./lib/",
   "author": {
