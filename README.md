@@ -38,6 +38,12 @@ log.info('Message', {a: 123});
 log.info({a: 123}, 'Message');
 ```
 
+### Errors
+
+Errors can be passed directly (`log( new Error('It went pear-shaped') )`) rather than under an `err` attribute (`log( { err: new Error('It went pear-shaped') } )`).
+
+Errors (instances of the `Error` constructor) are automatically moved to under an `err` attribute. So they can then be rendered nicely by bunyan's standard serializer.
+
 ### Other features
 
 All other `bunyan` features, aside from `.child()` are not supported.
