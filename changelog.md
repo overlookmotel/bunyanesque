@@ -8,6 +8,6 @@
 
 * Place errors passed under `err` attribute (so can be processed with serializer)
 
-## Next
+## 0.2.1
 
 * Export `stdSerializers` from `bunyan`
