@@ -1,5 +1,7 @@
 # bunyanesque.js
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/overlookmotel/bunyanesque.svg)](https://greenkeeper.io/)
+
 # bunyan logger with a few tweaks
 
 ## Current status
